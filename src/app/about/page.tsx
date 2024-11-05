@@ -1,20 +1,21 @@
+"use client"
 import React, { useEffect } from "react";
 import Image from "next/image";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Page() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     easing: "ease-out-back",
-  //     duration: 1200,
-  //     delay: 100,
-  //     mirror: true,
-  //     anchorPlacement: "bottom-bottom",
-  //     offset: 160,
-  //   });
-  //   AOS.refresh(); // Correct the function call
-  // }, []);
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-back",
+      duration: 1200,
+      delay: 100,
+      mirror: true,
+      anchorPlacement: "bottom-bottom",
+      offset: 160,
+    });
+    AOS.refresh(); 
+  }, []);
 
   return (
     <main className="overflow-x-hidden">

@@ -150,7 +150,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="p-5 bg-[#353535] text-[#FAF9F6] md:flex items-center lg:flex">
+      <section className="p-5 text-[#FAF9F6] md:flex items-center lg:flex">
         <div
           data-aos="fade-right"
           data-aos-offset="300"
